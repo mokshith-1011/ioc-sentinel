@@ -89,6 +89,6 @@ Use benign indicators such as:
 
 Do not upload or submit private company data, confidential URLs, or real malware samples.
 
-## Disclaimer
+
 
 
