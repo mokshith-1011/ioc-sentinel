@@ -40,7 +40,43 @@ The project supports optional API keys entered into the sidebar at runtime.
 - VirusTotal: https://www.virustotal.com/
 - AbuseIPDB: https://www.abuseipdb.com/
 
-Never commit API keys to GitHub.
+## 📸 Screenshots
+
+### 1. IOC Classification
+
+The tool identifies the type of IOC entered by the analyst.
+
+![IOC Classification](screenshots/domain-check1.png)
+
+### 2. Threat Intelligence Enrichment
+
+The IOC is enriched using VirusTotal and AbuseIPDB where applicable.
+
+![Threat Intelligence Results](screenshots/ip-virustotal-abuseipdb1.png)
+
+### 3. Domain Analysis
+
+The tool can also analyze domain indicators.
+
+![Domain Analysis](screenshots/domain-check2.png)
+
+### 4. URL Analysis
+
+URL indicators can be classified and enriched through VirusTotal.
+
+![URL Analysis](screenshots/url-check1.png)
+
+### 5. Hash Analysis
+
+The tool supports hash-based indicators including SHA-256.
+
+![Hash Analysis](screenshots/hash-check1.png)
+
+### 6. Automated Tests
+
+The IOC classification tests successfully passed.
+
+![Tests Passed](screenshots/tests-passed.png)
 
 ## Safe testing
 
@@ -55,4 +91,4 @@ Do not upload or submit private company data, confidential URLs, or real malware
 
 ## Disclaimer
 
-This is an educational SOC automation project. A positive result from one intelligence source is not by itself proof that an indicator is malicious.
+
