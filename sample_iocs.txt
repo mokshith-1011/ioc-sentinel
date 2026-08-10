@@ -1,0 +1,5 @@
+# Safe/basic indicators for classification testing
+8.8.8.8
+example.com
+https://example.com/login
+d41d8cd98f00b204e9800998ecf8427e
